@@ -16,4 +16,6 @@ To start writing your own web curriculum, edit the following files:
 This project is based on the Twitter [Bootstrap](http://twitter.com) framework.
 
 ####License
-This work is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**.
+This work is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**. 
+
+![Creative Commons License Logo](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png "License")
