@@ -1,12 +1,7 @@
-.col1{
-	background: #5C7080;
-}
-.col2{
-	background: #6BC0FF;
-}
-.col3{
-    background: #E8AA4C;
-}
-.col4{
-    background: #FF384E;
-}
+.icon-margin-right {margin-right: 20px;}
+.text-grey-color {color: gray;}
+
+/* DEBUG */
+.yellowBG {background: yellow;}
+.greenBG {background: green;}
+.redBG {background: red;}
