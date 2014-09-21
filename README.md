@@ -1,7 +1,11 @@
 Web Curriculum
 ==============
 
-Web curriculum is a simple html based Curriculum Vitae you can edit with your personal details and put online. In the screenshots folder you can find some ehm... screenshots.
+Web curriculum is a simple html based Curriculum Vitae you can edit with your personal details and put online.
+
+####Demo
++ [CoverLetter.html](http://backslash451.github.io/web-curriculum/CoverLetter.html)
++ [Curriculum.html](http://backslash451.github.io/web-curriculum/Curriculum.html)
 
 ####History
 I initially started developing this project because i wanted to submit a nice and elegant Cover Letter for some amazing development job position. Then i realized it may be useful to someone else. :)
