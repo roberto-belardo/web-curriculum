@@ -1,0 +1,14 @@
+<div class="row" ng-show="cv.informations.projects">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3><i class="fa fa-check text-grey-color"></i> Projects</h3>
+        <div class="row">
+        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        		<div class="bs-callout bs-callout-info" ng-repeat="project in cv.informations.projects | orderBy:'-to_date'">
+        			<span><strong><a href="{{project.url}}" target="_blank">{{project.name}}</a></strong></span> 
+                    <span class="text-grey-color">({{project.from_date}} to {{project.to_date}})</span>
+        			<p>{{project.description}}</p>
+        		</div>
+        	</div>
+        </div>
+    </div>
+</div>

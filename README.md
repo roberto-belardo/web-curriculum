@@ -17,7 +17,7 @@ To start writing your own web curriculum, edit the following files:
 + Curriculum.html (Still developing)
 
 ####Technology
-This project is based on the Twitter [Bootstrap](http://twitter.com) framework.
+This project is based on the Twitter [Bootstrap](http://twitter.com) framework and on the Google [Angular.js](https://angularjs.org) framework.
 
 ####License
 This work is licensed under a **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**. 

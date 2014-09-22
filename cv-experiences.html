@@ -1,0 +1,19 @@
+<div class="row" ng-show="cv.informations.experiences">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3><i class="fa fa-briefcase text-grey-color"></i> Experience</h3>
+        <div class="row" ng-repeat="exp in cv.informations.experiences | orderBy:'-to_date'">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{exp.job_position}}</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span><strong><a href="{{exp.company.url}}" target="_blank">{{exp.company.name}}</a></strong></span> 
+                        <span class="text-grey-color">({{exp.from_date}} to {{exp.to_date}})</span>
+                        <p class="text-justify">{{exp.job_description}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

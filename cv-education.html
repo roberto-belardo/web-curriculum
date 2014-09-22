@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3><i class="fa fa-graduation-cap text-grey-color"></i> Education</h3>
+        <div class="row" ng-repeat="edu in cv.informations.education | orderBy:'-to_date'">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{edu.school_name}}</h3>
+                    </div>
+                    <div class="panel-body">
+                        <span><strong>{{edu.field_of_study}}</strong></span>, <span>{{edu.degree}}</span>
+                        <span class="text-grey-color">({{edu.from_date}} to {{edu.to_date}})</span>
+                        <p class="text-justify">{{edu.notes}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

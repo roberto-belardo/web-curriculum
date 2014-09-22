@@ -1,0 +1,31 @@
+<section ng-show="cv.informations.personal_informations">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3><i class="fa fa-info-circle text-grey-color"></i> Personal Informations</h3>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <img src="img/profilepicture.jpg" alt="profile picture" class="img-square img-responsive ">
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2 text-right text-grey-color hidden-xs">
+            <h2>Name:</h2>
+            <h3>Current:</h3>
+            <h5>Company:</h5>
+            <h5><i class="fa fa-phone"></i> Phone number:</h5>
+        </div>
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <h2>
+                <span class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color">Name:</span> 
+                {{cv.informations.personal_informations.name}} {{cv.informations.personal_informations.surname}}</h2>
+            <h3>
+                <span class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color">Current:</span> {{cv.informations.current.position}}</h3>
+            <h5>
+                <span class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color">Company:</span>
+                <a href="{{cv.informations.current.url}}" target="_blank"> {{cv.informations.current.company}}</a>
+            </h5>
+            <h5>
+                <span class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color"><i class="fa fa-phone"></i> Phone number:</span> 
+                {{cv.informations.personal_informations.phone_number}}
+            </h5>
+        </div>
+    </div>
+</section>

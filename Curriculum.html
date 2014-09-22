@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="curriculum">
 
 <head>
     <meta charset="utf-8">
@@ -9,11 +9,17 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/angular.js"></script>
+    
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!-- Angular modules -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/cvsections.js"></script>
 </head>
 
-<body>
+<body ng-controller="CurriculumCtrl as cv">
     <div class="container">
         <!-- Header -->
         <section>
@@ -25,91 +31,32 @@
         </section>
 
         <!-- Personal info -->
-        <section>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h3>Personal Informations</h3>
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                    <img src="img/profilepicture.jpg" alt="profile picture" class="img-square img-responsive ">
-                </div>
-                <div class="col-sm-2 col-md-2 col-lg-2 text-right text-grey-color hidden-xs">
-                    <h5>Name:</h5>
-                    <h5>Current:</h5>
-                    <h5>Location:</h5>
-                    <h5><i class="fa fa-phone"></i> Phone number:</h5>
-                </div>
-                <div class="col-sm-8 col-md-8 col-lg-8">
-                    <h5 class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color">Name:</h5><h5>Name Surname</h5>
-                    <h5 class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color">Current:</h5><h5>Job title</h5>
-                    <h5 class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color">Location:<h5><a href="" target="_blank">Company name</a></h5>
-                    <h5 class="visible-xs-* hidden-sm hidden-md hidden-lg text-grey-color"><i class="fa fa-phone"></i> Phone number:</h5><h5>(039) 123 4567890</h5>
-                </div>
-            </div>
-        </section>
+        <cv-info></cv-info>
 
         <!-- Summary -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Summary</h3>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porta nulla dolor, sit amet iaculis metus varius sit amet. Vivamus lobortis mauris eget odio ullamcorper, eget euismod nisl pellentesque. Vestibulum nec finibus justo. Sed condimentum nisl mauris, eget blandit ex varius id. Nunc facilisis, eros eget semper finibus, ipsum velit lacinia urna, at facilisis mi elit nec massa. Vivamus dapibus augue eget nisi lacinia, et placerat risus scelerisque. Suspendisse orci nulla, congue nec justo tempus, suscipit faucibus tellus. Quisque tincidunt, purus eu congue fringilla, massa diam pellentesque ipsum, vitae suscipit purus nibh non tortor. Cras purus purus, rutrum nec ante eu, tempus mattis lectus. In pulvinar gravida tristique. Pellentesque tincidunt elit est, eu pulvinar eros pharetra vitae. Vivamus maximus tempor ipsum, non cursus magna cursus in. Donec ullamcorper tristique faucibus. Nunc pretium luctus justo non vestibulum.</p>
-            </div>
-        </div>
+        <cv-summary></cv-summary>
 
         <!-- Work experiences -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Experience</h3>
-            </div>
-        </div>
+        <cv-experiences></cv-experiences>
 
         <!-- Projects -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Projects</h3>
-            </div>
-        </div>
+        <cv-projects></cv-projects>
 
         <!-- Certifications -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Certifications</h3>
-            </div>
-        </div>
+        <cv-certifications></cv-certifications>
 
         <!-- Skills -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Skills</h3>
-            </div>
-        </div>
+        <cv-skills></cv-skills>
 
         <!-- Languages -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Languages</h3>
-            </div>
-        </div>
+        <cv-languages></cv-languages>
 
         <!-- Education -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Education</h3>
-            </div>
-        </div>
+        <cv-education></cv-education>
 
         <!-- Social contacts -->
-        <section>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <a href="" target="_blank"><i class="fa fa-twitter fa-3x icon-margin-right"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-linkedin fa-3x icon-margin-right"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-github fa-3x icon-margin-right"></i></a>
-                    <a href="mailto:#" target="_blank"><i class="fa fa-envelope fa-3x icon-margin-right"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-skype fa-3x"></i></a>
-                </div>
-            </div>
-        </section>
+        <hr>
+        <cv-social-contacts></cv-social-contacts>
     </div>
 </body>
 
