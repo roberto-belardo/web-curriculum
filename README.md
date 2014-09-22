@@ -15,6 +15,7 @@ To start writing your own web curriculum, edit the following files:
 
 + CoverLetter.html
 + Curriculum.html (Still developing)
++ cv-data.json (just edit this json file with all of your curriculum informations and the page will render them)
 
 ####Technology
 This project is based on the Twitter [Bootstrap](http://twitter.com) framework and on the Google [Angular.js](https://angularjs.org) framework.
