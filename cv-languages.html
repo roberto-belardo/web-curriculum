@@ -1,0 +1,17 @@
+<div class="row" ng-show="cv.informations.languages">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3><i class="fa fa-globe text-grey-color"></i> Languages</h3>
+        <div class="row" ng-repeat="lang in cv.informations.languages">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <i class="fa fa-angle-right"></i> {{lang.language}}
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <span class="label label-success" ng-if="lang.level == 5">Native</span>
+                <span class="label label-primary" ng-if="lang.level == 4">Full professional working proficiency</span>
+                <span class="label label-info" ng-if="lang.level == 3">Professional working proficiency</span>
+                <span class="label label-warning" ng-if="lang.level == 2">Limited working proficiency</span>
+                <span class="label label-danger" ng-if="lang.level == 1">Elementary proficiency</span>
+            </div>
+        </div>
+    </div>
+</div>

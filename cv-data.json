@@ -1,0 +1,96 @@
+{
+    "certifications": [{
+        "issuer": "Certifications Entity",
+        "name": "Certification name",
+        "url": "http://"
+    }, {
+        "issuer": "Certifications Entity",
+        "name": "Certification name 2",
+        "url": "http://"
+    }],
+    "education": [{
+        "degree": "Master's degree",
+        "field_of_study": "road runners",
+        "from_date": "2005-04-23",
+        "grade": "110/110 cum laude",
+        "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "school_name": "University of road runners catchers",
+        "to_date": "2008-04-23"
+    }],
+    "experiences": [{
+        "company": {
+            "location": "Rome",
+            "name": "ACME Inc",
+            "url": "http://"
+        },
+        "from_date": "2010-04-23",
+        "job_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim nisl, volutpat vel ultricies eu, porttitor sed ligula. Mauris quis porttitor velit. Proin sit amet est posuere metus commodo facilisis. Quisque rutrum, mauris eget congue rhoncus, augue risus laoreet velit, sit amet porttitor magna velit in nulla. Suspendisse pulvinar vel orci ac finibus. Curabitur ut ex in felis condimentum facilisis vel quis sem. Nam in posuere enim. Mauris quis consequat orci. Maecenas tempor nisi metus, sed rhoncus leo auctor a. In feugiat laoreet lectus, condimentum mollis urna molestie a. Phasellus accumsan orci in ligula eleifend faucibus. Vestibulum eget erat et quam vehicula aliquam.",
+        "job_position": "Senior Road Runner Cactcher",
+        "to_date": "2014-04-23"
+    }, {
+        "company": {
+            "location": "Paris",
+            "name": "Super Runners Corp",
+            "url": "http://"
+        },
+        "from_date": "2008-04-23",
+        "job_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim nisl, volutpat vel ultricies eu, porttitor sed ligula. Mauris quis porttitor velit. Proin sit amet est posuere metus commodo facilisis. Quisque rutrum, mauris eget congue rhoncus, augue risus laoreet velit, sit amet porttitor magna velit in nulla. Suspendisse pulvinar vel orci ac finibus. Curabitur ut ex in felis condimentum facilisis vel quis sem. Nam in posuere enim. Mauris quis consequat orci. Maecenas tempor nisi metus, sed rhoncus leo auctor a. In feugiat laoreet lectus, condimentum mollis urna molestie a. Phasellus accumsan orci in ligula eleifend faucibus. Vestibulum eget erat et quam vehicula aliquam.",
+        "job_position": "Junior runner",
+        "to_date": "2010-03-23"
+    }],
+    "languages": [{
+        "language": "Italian",
+        "level": "5"
+    }, {
+        "language": "English",
+        "level": "4"
+    }, {
+        "language": "French",
+        "level": "1"
+    }],
+    "personal_informations": {
+        "name": "Mario",
+        "phone_number": "(039) 123 4567890",
+        "social_contacts": {
+            "twitter": "http://twitter",
+            "linkedin": "http://linkedin",
+            "skype": "http://skype",
+            "email": "mailto:#",
+            "github": "http://github"
+        },
+        "surname": "Rossi"
+    },
+    "projects": [{
+        "description": "Mauris quis porttitor velit. Proin sit amet est posuere metus commodo facilisis. Quisque rutrum, mauris eget congue rhoncus, augue risus laoreet velit, sit amet porttitor magna velit in nulla. Suspendisse pulvinar vel orci ac finibus.",
+        "from_date": "2008-04-23",
+        "name": "Super Secret",
+        "to_date": "2010-03-23",
+        "url": "http://"
+    }, {
+        "description": "Mauris quis porttitor velit. Proin sit amet est posuere metus commodo facilisis. Quisque rutrum, mauris eget congue rhoncus, augue risus laoreet velit, sit amet porttitor magna velit in nulla. Suspendisse pulvinar vel orci ac finibus.",
+        "from_date": "20010-04-23",
+        "name": "Project name",
+        "to_date": "2014-04-23",
+        "url": "http://"
+    }],
+    "skills": [{
+        "level": "9",
+        "name": "Bootstrap"
+    }, {
+        "level": "6",
+        "name": "Angular.js"
+    }, {
+        "level": "8",
+        "name": "Java"
+    }, {
+        "level": "1",
+        "name": "HTML 5"
+    }],
+    "current": {
+        "position": "Senior Road Runner Cactcher",
+        "company": "ACME Inc",
+        "url": "http://"
+    },
+
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim nisl, volutpat vel ultricies eu, porttitor sed ligula. Mauris quis porttitor velit. Proin sit amet est posuere metus commodo facilisis. Quisque rutrum, mauris eget congue rhoncus, augue risus laoreet velit, sit amet porttitor magna velit in nulla. Suspendisse pulvinar vel orci ac finibus. Curabitur ut ex in felis condimentum facilisis vel quis sem. Nam in posuere enim. Mauris quis consequat orci. Maecenas tempor nisi metus, sed rhoncus leo auctor a. In feugiat laoreet lectus, condimentum mollis urna molestie a. Phasellus accumsan orci in ligula eleifend faucibus. Vestibulum eget erat et quam vehicula aliquam."
+}

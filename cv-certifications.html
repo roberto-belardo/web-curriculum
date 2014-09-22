@@ -1,0 +1,13 @@
+<div class="row" ng-show="cv.informations.certifications">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3><i class="fa fa-trophy text-grey-color"></i> Certifications</h3>
+        <div class="row">
+        	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        		<div class="bs-callout bs-callout-warning" ng-repeat="cert in cv.informations.certifications">
+        			<span><strong><a href="{{cert.url}}" target="_blank">{{cert.name}}</a></strong></span> by 
+                    <span class="text-grey-color">{{cert.issuer}}</span>
+        		</div>
+        	</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="row" ng-show="cv.informations.skills">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3><i class="fa fa-gears text-grey-color"></i> Skills</h3>
+        <div class="row" ng-repeat="skill in cv.informations.skills">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                <i class="fa fa-angle-right"></i> {{skill.name}}
+            </div>
+            <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="{{skill.level * 10}}" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.level * 10}}%;">
+                        {{skill.level * 10}}%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
