@@ -1,17 +1,26 @@
 <div class="row" ng-show="cv.informations.experiences">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
         <h3><i class="fa fa-briefcase text-grey-color"></i> Experience</h3>
-        <div class="row" ng-repeat="exp in cv.informations.experiences | orderBy:'-to_date'">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">{{exp.job_position}}</h3>
-                    </div>
-                    <div class="panel-body">
-                        <span><strong><a href="{{exp.company.url}}" target="_blank">{{exp.company.name}}</a></strong></span> 
-                        <span class="text-grey-color">({{exp.from_date}} to {{exp.to_date}})</span>
-                        <p class="text-justify">{{exp.job_description}}</p>
-                    </div>
+    </div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+        <h3 class="text-right">
+            <a class="" href ng-click="experiencesCtrl.show()"><i class="fa fa-angle-down" ng-hide="experiencesCtrl.toggle"></i></a>
+            <a class="" href ng-click="experiencesCtrl.hide()"><i class="fa fa-angle-up" ng-show="experiencesCtrl.toggle"></i></a>
+        </h3>
+    </div>
+    <div class="row" ng-repeat="exp in cv.informations.experiences | orderBy:'-to_date'"  ng-show="!experiencesCtrl.toggle">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{exp.job_position}}</h3>
+                </div>
+                <div class="panel-body">
+                    <span>
+                        <strong><a href="{{exp.company.url}}" target="_blank">{{exp.company.name}}</a>
+                        </strong>
+                    </span>
+                    <span class="text-grey-color">({{exp.from_date | date : 'dd/MM/yyyy'}} to {{exp.to_date | date : 'dd/MM/yyyy'}})</span>
+                    <p class="text-justify">{{exp.job_description}}</p>
                 </div>
             </div>
         </div>
