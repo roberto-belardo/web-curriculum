@@ -9,7 +9,7 @@
                     </div>
                     <div class="panel-body">
                         <span><strong>{{edu.field_of_study}}</strong></span>, <span>{{edu.degree}}</span>
-                        <span class="text-grey-color">({{edu.from_date}} to {{edu.to_date}})</span>
+                        <span class="text-grey-color">({{edu.from_date | date : 'dd/MM/yyyy'}} to {{edu.to_date | date : 'dd/MM/yyyy'}})</span>
                         <p class="text-justify">{{edu.notes}}</p>
                     </div>
                 </div>

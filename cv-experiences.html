@@ -9,7 +9,7 @@
                     </div>
                     <div class="panel-body">
                         <span><strong><a href="{{exp.company.url}}" target="_blank">{{exp.company.name}}</a></strong></span> 
-                        <span class="text-grey-color">({{exp.from_date}} to {{exp.to_date}})</span>
+                        <span class="text-grey-color">({{exp.from_date | date : 'dd/MM/yyyy'}} to {{exp.to_date | date : 'dd/MM/yyyy'}})</span>
                         <p class="text-justify">{{exp.job_description}}</p>
                     </div>
                 </div>

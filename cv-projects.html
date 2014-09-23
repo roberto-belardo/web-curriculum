@@ -5,7 +5,7 @@
         	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         		<div class="bs-callout bs-callout-info" ng-repeat="project in cv.informations.projects | orderBy:'-to_date'">
         			<span><strong><a href="{{project.url}}" target="_blank">{{project.name}}</a></strong></span> 
-                    <span class="text-grey-color">({{project.from_date}} to {{project.to_date}})</span>
+                    <span class="text-grey-color">({{project.from_date | date : 'dd/MM/yyyy'}} to {{project.to_date | date : 'dd/MM/yyyy'}})</span>
         			<p>{{project.description}}</p>
         		</div>
         	</div>
