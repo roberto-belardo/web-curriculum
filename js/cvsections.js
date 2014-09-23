@@ -13,7 +13,21 @@
     app.directive('cvSummary', function() {
         return {
             restrict: 'E',
-            templateUrl: 'cv-summary.html'
+            templateUrl: 'cv-summary.html',
+            controller: function() {
+                this.toggle = false;
+
+                this.show = function() {
+                    this.toggle = true;
+                    
+                };
+
+                this.hide = function() {
+                    this.toggle = false;
+                    
+                };
+            },
+            controllerAs: 'summaryCtrl'
         };
     });
 
@@ -21,7 +35,21 @@
     app.directive('cvExperiences', function() {
         return {
             restrict: 'E',
-            templateUrl: 'cv-experiences.html'
+            templateUrl: 'cv-experiences.html',
+            controller: function() {
+                this.toggle = false;
+
+                this.show = function() {
+                    this.toggle = true;
+                    
+                };
+
+                this.hide = function() {
+                    this.toggle = false;
+                    
+                };
+            },
+            controllerAs: 'experiencesCtrl'
         };
     });
 
@@ -29,7 +57,21 @@
     app.directive('cvProjects', function() {
         return {
             restrict: 'E',
-            templateUrl: 'cv-projects.html'
+            templateUrl: 'cv-projects.html',
+            controller: function() {
+                this.toggle = false;
+
+                this.show = function() {
+                    this.toggle = true;
+                    
+                };
+
+                this.hide = function() {
+                    this.toggle = false;
+                    
+                };
+            },
+            controllerAs: 'projectsCtrl'
         };
     });
 
@@ -37,7 +79,21 @@
     app.directive('cvLanguages', function() {
         return {
             restrict: 'E',
-            templateUrl: 'cv-languages.html'
+            templateUrl: 'cv-languages.html',
+            controller: function() {
+                this.toggle = false;
+
+                this.show = function() {
+                    this.toggle = true;
+                    
+                };
+
+                this.hide = function() {
+                    this.toggle = false;
+                    
+                };
+            },
+            controllerAs: 'languagesCtrl'
         };
     });
 
@@ -45,7 +101,21 @@
     app.directive('cvSkills', function() {
         return {
             restrict: 'E',
-            templateUrl: 'cv-skills.html'
+            templateUrl: 'cv-skills.html',
+            controller: function() {
+                this.toggle = false;
+
+                this.show = function() {
+                    this.toggle = true;
+                    
+                };
+
+                this.hide = function() {
+                    this.toggle = false;
+                    
+                };
+            },
+            controllerAs: 'skillsCtrl'
         };
     });
 
@@ -53,7 +123,21 @@
     app.directive('cvEducation', function() {
         return {
             restrict: 'E',
-            templateUrl: 'cv-education.html'
+            templateUrl: 'cv-education.html',
+            controller: function() {
+                this.toggle = false;
+
+                this.show = function() {
+                    this.toggle = true;
+                    
+                };
+
+                this.hide = function() {
+                    this.toggle = false;
+                    
+                };
+            },
+            controllerAs: 'educationCtrl'
         };
     });
 
@@ -61,7 +145,21 @@
     app.directive('cvCertifications', function() {
         return {
             restrict: 'E',
-            templateUrl: 'cv-certifications.html'
+            templateUrl: 'cv-certifications.html',
+            controller: function() {
+                this.toggle = false;
+
+                this.show = function() {
+                    this.toggle = true;
+                    
+                };
+
+                this.hide = function() {
+                    this.toggle = false;
+                    
+                };
+            },
+            controllerAs: 'certificationsCtrl'
         };
     });
 

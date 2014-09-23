@@ -1,6 +1,6 @@
 (function() {
 
-    var app = angular.module('curriculum', ['cv-sections']);
+    var app = angular.module('cv', ['cv-sections']);
 
     // ----------- CV Controller
     app.controller('CurriculumCtrl', ['$http', '$log', '$filter',
@@ -24,8 +24,6 @@
             error(function(data, status, headers, config) {
                 $log.error(status);
             });
-
-
         }
     ]);
 
