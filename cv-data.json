@@ -86,11 +86,5 @@
         "level": "1",
         "name": "HTML 5"
     }],
-    "current": {
-        "position": "Senior Road Runner Cactcher",
-        "company": "ACME Inc",
-        "url": "http://"
-    },
-
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim nisl, volutpat vel ultricies eu, porttitor sed ligula. Mauris quis porttitor velit. Proin sit amet est posuere metus commodo facilisis. Quisque rutrum, mauris eget congue rhoncus, augue risus laoreet velit, sit amet porttitor magna velit in nulla. Suspendisse pulvinar vel orci ac finibus. Curabitur ut ex in felis condimentum facilisis vel quis sem. Nam in posuere enim. Mauris quis consequat orci. Maecenas tempor nisi metus, sed rhoncus leo auctor a. In feugiat laoreet lectus, condimentum mollis urna molestie a. Phasellus accumsan orci in ligula eleifend faucibus. Vestibulum eget erat et quam vehicula aliquam."
 }
